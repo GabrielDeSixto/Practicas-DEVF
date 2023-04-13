@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Google Clone</title>
+    <title>Clone Google</title>
 </head>
 
 <body>
@@ -38,16 +39,17 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <!--Search-->
         <section>
-            <img src="./img/googlelogo_color_272x92dp.png" alt="logo_Google">
+            <img id="logo" src="./img/googlelogo_color_272x92dp.png" alt="logo_Google">
         </section>
         <section class="main-input">
             <div class="main-input-container">
-                <img src="./img/icon_search.svg" alt="search" class="icon_search">
-                <input id="input" type="search" placeholder="Busca en Google o escribe una URL">
-                <img src="./img/googlemic_clr_24px.svg" alt="voice">
+                <img src="./img/icon_search.svg" alt="search" class="icon_search" id="search" class="btn-search">
+                <input id="input-search" type="search" placeholder="Busca en Google o escribe una URL">
+                <img src="./img/googlemic_clr_24px.svg" alt="voice" id="lucky" class="btn-search">
             </div>
         </section>
 
