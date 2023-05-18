@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+a, button{
+    cursor: pointer;
+}
+
+@keyframes pan {
+    100%{
+        background-position: 15% 50%;
+    }
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-image: url("./img/blob-haikei.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:
+        pan 6s infinite alternate linear;
+}
+
+@media (width >= 500px) {
+    body{
+        padding: 0;
+    } 
+}
+
+.login-card{
+    width: 100%;
+    padding: 70px 30px 44px;
+    border-radius: 24px;
+    background: #ffffff85;
+    text-align: center;
+}
+
+@media (width >=500px) {
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}
+
+.login-card > h2{
+    margin: 0 0 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.login-card > h3{
+    margin: 0 0 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.login-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+}
+
+.login-form > a {
+    color: #216ce7;
+} 
+
+.login-form > input, .login-form > button {
+    width: 100%;
+    height: 56px;
+    padding: 0 16px;
+    border-radius: 8px;
+}
+
+.login-form > input{
+    border: 2px solid #ebebeb;
+}
+
+.login-form > button {
+    width: 100%;
+    height: 56px;
+    border: 0;
+    background: #f9f9f9;
+    font-weight: 600;
+}
+
+.login-img{
+    width: 150px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+
+.user {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 40px;
+    margin-left: 30%;
+}   
+
+
+.login {
+    height: 30%;
+    width: 30%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.verde {
+    background-color: #0B3890;
+    border-color: #0B3890;
+}
+
+.cajero {
+    background-color: #0B3890;
+    height: 670px;
+    width: 80%;
+    margin: auto;
+    margin-top: 8%;
+}
+
+.logoc {
+    margin-left: 25px;
+    margin-top: 25px;
+    color: white;
+    font-size: 40px;
+    font-family: 'Lato', bold;
+}
+
+.titulo {
+    margin-top: 25px;
+    margin-left: 25px;
+    color: #14ADED;
+    font-family: 'Lato', bold;
+    font-size: 20px;
+}
+
+.subtitulo {
+    margin-top: -10px;
+    margin-left: 25px;
+    color: white;
+    font-family: 'Lato', bold;
+    font-size: 20px;
+}
+
+.cuadro {
+    background-color: #14ADED;
+    color: white;
+    font-family: 'Lato', bold;
+    font-size: 20px;
+    margin-left: 35px;
+    height: 50px;
+    cursor: pointer;
+}
+
+
+.centrartexto {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.botonAccion {
+    margin-top: 60px;
+    color: #0B3890;
+}
+
+.rosa {
+    background-color: #EA0765;
+    border-color: #EA0765;
+}
