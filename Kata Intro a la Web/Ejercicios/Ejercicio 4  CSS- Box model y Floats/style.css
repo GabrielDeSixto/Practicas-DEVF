@@ -1,0 +1,44 @@
+*{
+    background-color: grey;
+}
+
+.chico_azul{
+    background-color: antiquewhite;
+    display: block;
+    padding: 2em;
+}
+
+.grande_azul{
+    background-color: antiquewhite;
+    display: block;
+    margin-top: 8px;
+    padding: 6em;
+}
+
+.mediano-azul_margin-derecho{
+    margin-top: 8px;
+    background-color: antiquewhite;
+    padding: 6em;    
+    width: 485px;
+    float: right;
+    display: block;
+}
+
+.mediano-azul{
+    margin-top: 8px;
+    background-color: antiquewhite;
+    width: 485px;
+    float: left;
+    padding: 6em;
+    display: block;
+}
+
+.grande-azul{
+    background-color: antiquewhite;
+    margin-top: 13em;
+    padding: 6em;
+}
+
+.margin-abajo{
+    margin-bottom: 10px;
+}
