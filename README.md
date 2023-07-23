@@ -5,4 +5,4 @@ Una escuela de Code donde se aprendierón todas las herramientas necesarias para
 
 Esto fue posible gracias a una beca por Becalos.
 
-![Becalos Sur](./img/BecalosSur.097c92b9.png)
+<img src="./styles/img/BecalosSur.097c92b9.png">
