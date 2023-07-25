@@ -466,7 +466,8 @@
     color: #DEDEDE;
   }
   #pokemon-stats{
-    color: white;
+    font-size: 0.85vmax;
+    color: #DEDEDE;
   }
   
   .screen-left-2 {

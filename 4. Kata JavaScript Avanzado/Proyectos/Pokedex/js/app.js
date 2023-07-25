@@ -80,6 +80,7 @@ let pokedexCoverFunc = () => {
         pokemonImage.src = ''
         pokemonTag[0].innerText = ''
         pokemonTag[1].innerText = ''
+        pokemonstats.innerText = ''
         con = -1
     }
     cover++
